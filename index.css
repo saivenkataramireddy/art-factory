@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: blue;
+    padding: 2rem;
+    color: white;
+}
+ul{
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end;
+    padding-right: 8rem;
+    gap: 30px;
+    list-style-type: none;
+}
+li{
+    font-size: 18px;
+}
+nav span{
+    float: left;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.home{
+    background-color: blue;
+    display: flex;
+    padding: 5rem;
+    color: white;
+}
+.home img{
+    height: auto;
+    width: auto ;
+}
+.left{
+    padding:50px;
+    width: 50%;
+}
+.left > #p0{
+    font-size: 4.0rem ;
+    padding: 5px;
+    font-weight: 500;
+}
+.left > #p1{
+    font-size: 4.0rem;
+    font-weight: 700;
+    padding: 10px;
+}
+.left> #p2{
+    padding: 10px;
+}
+button {
+    margin-top: 2rem;
+    background-color: rgb(243, 98, 46) ;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.viva{
+    margin-top: 5rem;
+    display: flex;
+    padding: 2rem;
+}
+.left1{
+    padding-left: 10rem;
+}
+.left1 img{
+    height: 25rem;
+    width: 33rem;
+}
+.right1{
+    width: 40%;
+    padding: 40px;
+}
+#b1{
+    background-color: rgb(1, 185, 251);
+    font-weight: 600;
+    cursor:pointer;
+}
+.curabitur{
+    display: flex; 
+    padding: 20px;
+}
+.left2 img{
+    height: 3rem;
+    background-color: rgb(156, 156, 242);
+    border-radius: 50%;
+    padding: 10px;
+}
+.left2{
+    padding: 40px;
+    margin-left: 10rem;
+    width: 40%;
+}
+.right2{
+    padding: 40px;
+    gap: 4rem;
+}
+.right2 img{
+    height: 25rem;
+}
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+.card {
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card img {
+    width: 60px;
+    margin: 20px auto;
+}
+.btn-custom {
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: green;
+    border-radius: 50%;
+    padding: 20px;
+}
+.frequently{
+    padding: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+.tex{
+    width: 100%;
+    padding: 2rem;
+    height:10rem;
+}
+.tex h1{
+    font-size: 2rem;
+}
+.aptent{
+    width: 40%;
+    padding: 4rem;
+    margin-left: 4rem;
+}
+.right3{
+    width: 30%;
+    margin-left: 2rem;
+}
+.two_boxes{
+    display: flex;
+    padding: 5rem;
+}
+
+.foot{
+    display: flex;
+}
+.contact{
+    border: 2px solid;
+    background-color: rgb(64, 64, 240);
+    padding: 7rem;
+    color: white;
+}
+.contact input{
+    padding: 1rem;
+    width: 22rem;
+    margin: 0.5rem;
+    background-color: rgba(144, 144, 241, 0.237);
+    color: white;
+    
+}
+.contact #Message{
+    padding: 2rem;
+    font-size: 2rem;
+    width: 100%;
+    margin: 0.5rem;
+}
+.map iframe {
+    border:2px solid;    
+    width: 100vh;
+    height:50rem;
+}
+.fot img{   
+    display: flex;
+}
+.left4 p{
+
+}
+.right4{
+    float: right;
+}
